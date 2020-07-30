@@ -492,7 +492,7 @@ e.g.:
 ``` bash
 $ docker run -d -P -p 5900:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-chrome:4.0.0-alpha-6-20200721
 $ docker run -d -P -p 5901:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-firefox:4.0.0-alpha-6-20200721
-$ docker run -d -P -p 5900:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-opera:4.0.0-alpha-6-20200721
+$ docker run -d -P -p 5902:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-opera:4.0.0-alpha-6-20200721
 ```
 to connect to the Chrome node on 5900 and the Firefox node on 5901 (assuming those nodes are free, and reachable).
 
